@@ -13,8 +13,6 @@ void setup() {
 }
 
 void loop() {
-  Serial.begin(9600);
-  
   // Clears the trigPin
   digitalWrite(trigPin, LOW);
   delayMicroseconds(10);
